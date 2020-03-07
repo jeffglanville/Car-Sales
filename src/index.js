@@ -14,7 +14,7 @@ const store = createStore(reducer);
 
 const rootElement = document.getElementById('root');
 ReactDOM.render(
-<Provider>
+<Provider store={store}>
     <App />
 </Provider>
     , rootElement);
