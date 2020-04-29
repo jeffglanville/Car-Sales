@@ -41,10 +41,11 @@ body {
   color: white;
   margin-right: 1em;
   padding: .25em .75em;
-  transition: all .25s ease-in;
+  transition: all .3s ease-in;
   &:hover {
-    background: ghostwhite;
-    border: 1px solid red;
-    color: rgb(0, 0, 3);
+    background: #ff0000;
+    color: rgb(251, 255, 0);
+    box-shadow: 0 0 10px 0 #eeff05 inset, 0 0 20px 2px #3b05ff;
+    border: 3px solid #ff0000;
   }
 }
